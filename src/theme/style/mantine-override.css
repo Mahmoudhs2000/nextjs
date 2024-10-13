@@ -1,0 +1,11 @@
+.mantine-Select-input:focus, 
+.mantine-Select-input:focus-within,
+.mantine-TextInput-input:focus, 
+.mantine-TextInput-input:focus-within{
+    outline: auto;
+    outline-color: var(--primaryColor) !important;
+}
+.mantine-Checkbox-input:checked{
+    background-color: var(--primaryColor) !important;
+    border-color: var(--primaryColor) !important;
+}
